@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.editar__area {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #121214;
+}
+
+form {
+    width: 75vh;
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #202024;
+    padding: 2em;
+    border-radius: 1.5em;
+}
+
+.editar-funcionario {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.editar-funcionario h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #e1e1e6;
+    text-align: center;
+    margin-bottom: 2.5vh;
+    transition: 0.10s linear
+}
+
+.editar-funcionario input {
+    font-size: 1rem;
+    color: #202024;
+    width: 100%;
+    height: 2.5em;
+    padding: 0.15em;
+    border: none;
+    background-color: #e1e1e6;
+    border-radius: 0.5em;
+    border: 2.5px solid #e1e1e6;
+    outline: none;
+    transition: 0.10s linear;
+}
+
+.editar-funcionario input:focus {
+    outline: none;
+    color: #8257e6;
+    border-color: #8257e6;
+}
+
+.btn-editar {
+    display: flex;
+    width: 100%;
+    height: 2.5em;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+#btn__cancelar__editar {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    background: transparent;
+    color: #e30613A6;
+    border: 2.5px solid currentColor;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+#btn__cancelar__editar:hover, #btn__cancelar__editar:focus  {
+    outline: none;
+    background: #e30613A6;
+    color: #e1e1e6;
+    border-color: #e30613A6;
+}
+
+#btn__editar__funcionario {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    background: transparent;
+    color: #21C197;
+    border: 2.5px solid currentColor;
+    border-radius: 5px;
+    transition: 0.25s;
+}
+
+#btn__editar__funcionario:hover, #btn__editar__funcionario:focus {
+    outline: none;
+    background: #21C197;
+    color: #e1e1e6;
+    border-color: #21C197A6;
+} 
+
+select {
+    font-size: 1rem;
+    width: 100%;
+    height: 2.5em;
+    padding: 0.15em;
+    cursor: pointer;
+    color: #202024;
+    background-color: #e1e1e6;
+    border: 2.5px solid #e1e1e6;
+    border-radius: 0.5em;
+    transition: 0.10s;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+select:focus {
+    outline: none;
+    color: #8257e6;
+    border-color: #8257e6;
+}
